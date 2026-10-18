@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Patrick+Hand&family=Stack+Sans+Headline:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading {
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: 'bangers';
+    color: rgb(255, 153, 0);
+    text-shadow: 1px 1px 2px black;
+}
+
+#img1 {
+    width: 500px;
+    position: absolute;
+    left: 1380px;
+    bottom: 470px;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 15px;
+}
+
+#img2 {
+    width: 500px;
+    position: absolute;
+    left: 1380px;
+    bottom: 110px;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 15px;
+}
+
+.words-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(136, 191, 240);
+    width: 300px;
+    position: absolute;
+    left: 150px;
+    bottom: 30px;
+    box-shadow: 1px 5px 10px grey;
+    border-radius: 10px;
+}
+
+.words {
+    max-width: 300px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.numbers {
+    font-size: 30px;
+    font-family: 'patrick hand';
+    padding: 10px;
+    color: rgb(255, 72, 0);
+    text-align: left;
+    position: relative;
+    left: 550px;
+}
+
+p {
+    max-width: 800px;
+    font-size: 2rem;
+    font-family: 'patrick hand';
+    font-style: italic;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.inputs {
+    font-size: 1.9rem;
+    font-family: 'patrick hand';
+    font-style: italic;
+    border-style: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 90px;
+    height: 39px;
+    color: darkorange;
+}
