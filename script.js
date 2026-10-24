@@ -51,7 +51,7 @@ input2.addEventListener('keyup', (e) => {
 }) 
 
 input3.addEventListener('keyup', (e) => {
-    if(input3.value === "wasn't" || input3.value === "wasnt") {
+    if(input3.value === "was") {
         const audio = document.getElementById('right')
         audio.play()
          input3.style.color = 'green'
